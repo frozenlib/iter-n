@@ -1,0 +1,16 @@
+[package]
+name = "iter-n"
+version = "0.1.0"
+edition = "2021"
+authors = ["frozenlib"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/frozenlib/iter-n"
+documentation = "https://docs.rs/iter-n/"
+keywords = ["iterator", "either", "impl", "enum"]
+categories = ["rust-patterns"]
+description = "A utility for functions returning impl Iterator to return one of several distinct types."
+
+[workspace]
+members = ["gen"]
+
+[dependencies]
